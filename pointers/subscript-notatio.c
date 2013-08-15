@@ -5,8 +5,8 @@ int main()
 	int i;
 	for(i = 0; i < 5 ; i++)
 	{
-	printf("value of arr[%d] = %d\t",i,arr[i]);
-	printf("Address of arr[%d] = %p\n",i,&arr[i]);
+	printf("value of arr[%d] = %d\t",i,i[arr]);
+	printf("Address of arr[%d] = %p\n",i,&i[arr]);
  	}
 	return 0;
 
